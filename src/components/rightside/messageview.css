@@ -1,0 +1,13 @@
+.section-box {
+    width: calc(100% - var(--aside-box-width));
+    height: 100%;
+}
+
+.section-box {
+    display: inline-block;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv9g6hxStBKmc621QRV0JaUt5GKmhmiaqNmQ&usqp=CAU");
+    overflow: scroll;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 0px; 
+}

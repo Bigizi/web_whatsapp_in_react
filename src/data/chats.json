@@ -1,0 +1,47 @@
+{
+    "contacts": [
+        {
+            "profilePictureURL": "https://image.shutterstock.com/image-vector/man-icon-vector-260nw-1040084344.jpg",
+            "names": "GDG Kigali Forum",
+            "lastMessageTimeStamp": 1657093090489,
+            "lastMessage": "Message Content",
+            "messageStatus": 1
+        },
+        {
+            "profilePictureURL": "https://pps.whatsapp.net/v/t61.24694-24/292153700_985737842117451_3538596057759536981_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=1cea257b14ec80643c8a4f6b298809d6&oe=62D50D99",
+            "names": "Random Guy",
+            "lastMessageTimeStamp": 1657093090489,
+            "lastMessage": "Some other message",
+            "messageStatus": 1
+        },
+        {
+            "profilePictureURL": "https://pps.whatsapp.net/v/t61.24694-24/292153700_985737842117451_3538596057759536981_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=1cea257b14ec80643c8a4f6b298809d6&oe=62D50D99",
+            "names": "Random Guy",
+            "lastMessageTimeStamp": 1657093090489,
+            "lastMessage": "Some other message",
+            "messageStatus": 1
+        },
+        {
+            "profilePictureURL": "https://pps.whatsapp.net/v/t61.24694-24/292153700_985737842117451_3538596057759536981_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=1cea257b14ec80643c8a4f6b298809d6&oe=62D50D99",
+            "names": "Random Guy",
+            "lastMessageTimeStamp": 1657093090489,
+            "lastMessage": "Some other message",
+            "messageStatus": 0
+        },
+        {
+            "profilePictureURL": "https://pps.whatsapp.net/v/t61.24694-24/292153700_985737842117451_3538596057759536981_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=1cea257b14ec80643c8a4f6b298809d6&oe=62D50D99",
+            "names": "Random Guy",
+            "lastMessageTimeStamp": 1657093090489,
+            "lastMessage": "Some other message",
+            "messageStatus": 2
+        },
+        {
+            "profilePictureURL": "https://pps.whatsapp.net/v/t61.24694-24/292153700_985737842117451_3538596057759536981_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=1cea257b14ec80643c8a4f6b298809d6&oe=62D50D99",
+            "names": "Crispin",
+            "lastMessageTimeStamp": 1657093090489,
+            "lastMessage": "Some other message",
+            "messageStatus": 2,
+            "userId": "1234532"
+        }
+    ]
+}
