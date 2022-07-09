@@ -1,14 +1,18 @@
 
 import React from 'react'
 import './messageview.css'
-import Chat from '../../Chatcomponent/Chat'
+import Header from './Header'
+import MessageBody from './MessageBody'
+import Footer from './Footer'
 
 
 function MessageView(props) {
     
   return (
     <section className="section-box">
-        <Chat contactData={props.contactData} />
+        <Header contactData={props.contactData}/>
+        <MessageBody />
+        <Footer />
     </section>
 
   )
