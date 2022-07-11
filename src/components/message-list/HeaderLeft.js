@@ -1,29 +1,15 @@
-import React, {useState} from 'react';
-import './styles.css';
-import MessageCard from '../message-card';
-import chats from "../../data/chats.json";
+import React, { useState } from 'react'
 
-const { contacts } = chats;
-const messageStatus = ["NOT_SENT", "SENT", "DELIVERED", "SEEN"];
+import './headerleft.css'
 
-
-function MessageList(props){
-    
-    
+function HeaderLeft() {
     const[isOpen, setIsOpen] = useState(false);
     const onMenuButtonClick = () => {
     // console.log("Icon clicked");
     setIsOpen(!isOpen)
 }
-
-function onMessageClick(data){
-       props.giveData(data);
-       console.log(data)
-      
-}
+  return (
         
-    return (
-        <aside className="aside-box">
             <div className="header-section">
 
                 <div className="top-header-section">
@@ -59,24 +45,8 @@ function onMessageClick(data){
                     </div>
                 </div>
             </div>
-
-            <div className='body-section'>
-
-                {contacts.map(contact=>{
-                    const date = new Date(contact.lastMessageTimeStamp);
-                    return <MessageCard 
-    
-                        messageStatus = {messageStatus[contact.messageStatus]}
-                        profile={contact.profilePictureURL} 
-                        name={contact.names} 
-                        date={date.toDateString()}
-                        message={contact.lastMessage}
-                        onMessageClick={onMessageClick}
-                         />
-                })}
-            </div>
-        </aside>
-    )
+        
+  )
 }
 
-export default MessageList;
+export default HeaderLeft

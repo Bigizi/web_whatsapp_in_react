@@ -1,5 +1,5 @@
 import './App.css';
-import MessageList from '../message-list';
+import MessageList from '../message-list/MessageList';
 import MessageView from '../rightside/MessageView';
 import {useState} from "react";
 
@@ -11,7 +11,7 @@ function App() {
     return (
             <>
             <MessageList giveData={getData} />
-            <MessageView contactData={contactData} /> 
+            <MessageView contactData={contactData} />
             </>
     );
     }
