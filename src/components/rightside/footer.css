@@ -24,3 +24,30 @@
     border: none;
     padding: 10px;
 }
+
+#frm{
+    background-color: #f0f2f5;
+    margin-top: 90px;
+}
+#in-put{
+    height: 45px;
+    width: 35px;
+}
+
+#icon{
+    margin-top: 9px;
+
+}
+
+#btn{
+    width: 40px;
+    height: 35px;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+#att{
+    width: 30px;
+    height: 20px;
+    margin-top: 10px;
+}

@@ -3,6 +3,7 @@ import './messagelist.css';
 import HeaderLeft from './HeaderLeft';
 import MessageCard from '../message-card';
 import chats from "../../data/chats.json";
+// import CheckIcon from '@mui/icons-material/Check';
 
 const { contacts } = chats;
 
@@ -16,6 +17,7 @@ function MessageList(props) {
     }
     return (
         
+        
         <aside className='aside-box'>
         <HeaderLeft />
         <div className='body-section'>
@@ -28,6 +30,7 @@ function MessageList(props) {
                         name={contact.names} 
                         date={date.toDateString()}
                         message={contact.lastMessage}
+                        newmessage={contact.newmessage}
                         onMessageClick={onMessageClick}
                          />
                 })}
